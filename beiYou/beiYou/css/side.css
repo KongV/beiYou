@@ -1,0 +1,122 @@
+.body_img{
+    width:100%;
+    height:280px;
+}
+.body_cnt{
+    width:1100px;
+    height:100%;
+    margin:0 auto;
+    font-family: "Microsoft YaHei";
+    position: relative;
+}
+
+.body_cnt .cnt_left{
+    width:230px;
+    height:600px;
+}
+.body_cnt .cnt_title,.connectTitle{
+    width:230px;
+    height:60px;
+    background: royalblue;
+    text-align: center;
+    padding-top:20px;
+    font-size:20px;
+    font-style: normal;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.body_cnt .cnt_left .cnt_list,.connect{
+    width:230px;
+    height:200px;
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+}
+.body_cnt .cnt_left .cnt_list ul li{
+    width:180px;
+    height:40px;
+    line-height: 40px;
+    list-style: none;
+    border-bottom:solid 2px gainsboro;
+    padding-left:50px;
+    position: relative;
+}
+
+.body_cnt .cnt_left .cnt_list ul li:hover a{
+    color: royalblue;
+}
+.body_cnt .cnt_left .cnt_list ul li a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.body_cnt .cnt_left .cnt_list ul li span{
+    display: block;
+    position: absolute;
+    top:0;
+    left:150px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.body_cnt .cnt_left .cnt_list ul .news_on a{
+    color: royalblue;
+}
+.body_cnt .cnt_left .cnt_list ul .news_on span{
+    left:170px;
+}
+.body_cnt .cnt_left .cnt_list ul li:hover span{
+    left:170px;
+}
+.body_cnt .cnt_left .connect{
+    height:260px;
+    font-size: 17px;
+    border:1px solid gainsboro;
+}
+.body_cnt .cnt_left .connect .connectTitle{
+    height:40px;
+    padding-top: 15px;
+}
+.body_cnt .cnt_left .connect ul{
+    margin-top:20px ;
+}
+.body_cnt .cnt_left .connect ul li{
+    list-style-type: square;
+    width:100px;
+    margin-left: 65px;
+    height:35px;
+    line-height: 35px;
+    font-size: 17px;
+}
+.body_cnt .cnt_left .connect ul li a{
+    color: #2b2b2b;
+}
+.body_cnt .cnt_left .connect ul li a:hover{
+    color: royalblue;
+}
+.body_cnt .cnt_right{
+    width:830px;
+    position: absolute;
+    left:280px;
+    top:0;
+}
+
+.cnt_right .r_title{
+    width:870px;
+    height:50px;
+    border-bottom:solid 1px gray;
+}
+.cnt_right .r_title .r_title_cnt{
+    width:120px;
+    height:50px;
+    line-height: 50px;
+    font-size: 18px;
+    background: url("../images/newsTitle_bg.PNG") no-repeat 0 center;
+    border-bottom:1px solid royalblue;
+}
+.cnt_right .r_title .r_title_cnt p{
+    margin-left:30px;
+}

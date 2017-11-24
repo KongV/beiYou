@@ -1,0 +1,101 @@
+
+.cnt_right .r_title{
+    width:870px;
+    height:50px;
+    border-bottom:solid 1px gray;
+}
+.cnt_right .r_title .r_title_cnt{
+    width:120px;
+    height:50px;
+    line-height: 50px;
+    font-size: 18px;
+    background: url("../images/newsTitle_bg.PNG") no-repeat 0 center;
+    border-bottom:1px solid royalblue;
+}
+.cnt_right .r_title .r_title_cnt p{
+    margin-left:30px;
+}
+.cnt_right .r_cnt{
+    width:870px;
+    height:auto;
+    padding-top:20px;
+}
+.cnt_right .r_cnt ul li{
+    width:870px;
+    height:110px;
+    border:solid 1px gainsboro;
+    margin:30px 0;
+    list-style: none;
+    position: relative;
+}
+.cnt_right .r_cnt ul li .cnt_date{
+    width:80px;
+    height:110px;
+    background-color: gainsboro;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+.cnt_right .r_cnt ul li .cnt_date p{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    border-bottom: 1px solid gray;
+    font-size: 45px;
+}
+.cnt_right .r_cnt ul li .cnt_date span{
+    display: block;
+    width:80px;
+    height:29px;
+    line-height:29px;
+}
+.cnt_right .r_cnt ul li .cnt_news{
+    width:710px;
+    height:110px;
+    position: absolute;
+    left:120px;
+}
+.cnt_news h3,i{
+    width:710px;
+    height:35px;
+    line-height: 35px;
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    font-style: normal;
+    color: #2b2b2b;
+}
+.cnt_news i{
+    height:55px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    top:45px;
+    color: gray;
+}
+.cnt_right .r_cnt ul li:hover{
+    border:1px solid midnightblue;
+}
+.cnt_right .r_cnt ul li:hover .cnt_date{
+    background-color: midnightblue;
+    color: #fff;
+}
+.cnt_right .r_cnt .moreBtn{
+    display: block;
+    margin:20px auto;
+    width:850px;
+    height:40px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #2b2b2b;
+    border:2px solid gainsboro ;
+    border-radius: 8px;
+}
+.cnt_right .r_cnt .moreBtn:hover{
+    background-color: royalblue;
+    color: #fff;
+}
+

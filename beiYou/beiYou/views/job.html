@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>就业情况</title>
+    <link href="../css/nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/side.css" rel="stylesheet" type="text/css">
+    <link href="../css/job.css" rel="stylesheet" type="text/css">
+    <script src="../js/echarts.common.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="navContainer">
+            <div class="logo">
+                <img src="../images/logo.png" />
+                <span >北京邮电大学</span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="./introduction.html">北邮概况</a></li>
+                    <li><a href="#">科学研究</a></li>
+                    <li ><a href="./schoolNews.html">校内新闻</a></li>
+                    <li  class="selected"><a href="#">就业板块</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body_img"><img src="../images/bg.jpg"/></div>
+    <div class="body_cnt">
+        <div class="cnt_left">
+            <div class="cnt_title"><p>校园新闻</p><span>NEWS</span></div>
+            <div class="cnt_list">
+                <ul>
+                    <li class="news_on"><a href="#">本科就业<span> ></span></a></li>
+                    <li><a href="#">研究生就业<span> ></span></a></li>
+                    <li><a href="#">博士就业<span> ></span></a></li>
+                    <li><a href="#">BAT公司<span> ></span></a></li>
+                </ul>
+            </div>
+            <div class="connect">
+                <p  class="connectTitle">友情链接</p>
+                <ul>
+                    <li><a href="https://bbs.byr.cn/index">北邮人论坛</a></li>
+                    <li><a href="https://tv.byr.cn/desktop/index.html?cdn=bupt">北邮IPTV</a></li>
+                    <li><a href="http://bt.byr.cn/index.php">北邮人BT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cnt_right">
+            <div class="r_title">
+                <div class="r_title_cnt">
+                    <p>就业情况</p>
+                </div>
+            </div>
+            <div id="chart1"></div>
+            <div class="cnt_text">
+                截至2015年10月31日，2015 年北邮总就业率为99.63%。其中，本科生就业率为99.34%，研究生就业率为99.96%。这里的“就业率”不是简单的统计找到工作的人数比例，统计对象还包括继续深造、灵活就业的学生，这也是统计就业率的普遍方法。所以不管你是读研、出国还是创业，你也为学校就业率上升贡献了一分力量。
+<br/>
+                就业率<br/>
+                　　从各学院来看，电子、软件、公管、国院、网络教育学院、网研、光研、马研等学院的整体就业率都为100%，大多数学院研究生就业率也为100%。
+                　　从纵向来看，2014年北邮毕业生的总就业率为99.76%，其中本科生就业率为99.54%，研究生就业率为100%，今年的三项就业率指标相比去年都有轻微的下降；从横向来看，北邮就业率与其他高校相比还是比较高的（例如：清华98.2%，北大97.97%，复旦96.95%，上交98.58%，北航98.80%，其中统计时间并不一致）。
+                　　其实北邮就业率高早已不是什么新闻了，但毕竟数据容易让人兴奋（例如本文就标题党了），在去年8月份新浪教育就在一篇文章中提到北邮研究生就业率为100%，在各高校中排榜首。但是各个学校之间学科设置、地理位置、行业地位不同，因此就业率的比较意义并不很大，就业率高可以说明学生更容易找到毕业后的出路，但不能说明是更好的出路。
+                　　<br/>2．北邮毕业生出国留学情况<br/>
+                　　本科毕业生出国（境）升学 729 人，占本科毕业总人数的 22.92%；研究生毕业生出国（境）升学28人，占研究生毕业总人数1.04%。所以本科生还是我邮出国群体中的主力军。
+                截至2015年10月31日，2015 年北邮总就业率为99.63%。其中，本科生就业率为99.34%，研究生就业率为99.96%。这里的“就业率”不是简单的统计找到工作的人数比例，统计对象还包括继续深造、灵活就业的学生，这也是统计就业率的普遍方法。所以不管你是读研、出国还是创业，你也为学校就业率上升贡献了一分力量。
+                <br/>
+                就业率<br/>
+                　　从各学院来看，电子、软件、公管、国院、网络教育学院、网研、光研、马研等学院的整体就业率都为100%，大多数学院研究生就业率也为100%。
+                　　从纵向来看，2014年北邮毕业生的总就业率为99.76%，其中本科生就业率为99.54%，研究生就业率为100%，今年的三项就业率指标相比去年都有轻微的下降；从横向来看，北邮就业率与其他高校相比还是比较高的（例如：清华98.2%，北大97.97%，复旦96.95%，上交98.58%，北航98.80%，其中统计时间并不一致）。
+                　　其实北邮就业率高早已不是什么新闻了，但毕竟数据容易让人兴奋（例如本文就标题党了），在去年8月份新浪教育就在一篇文章中提到北邮研究生就业率为100%，在各高校中排榜首。但是各个学校之间学科设置、地理位置、行业地位不同，因此就业率的比较意义并不很大，就业率高可以说明学生更容易找到毕业后的出路，但不能说明是更好的出路。
+                　　<br/>2．北邮毕业生出国留学情况<br/>
+                　　本科毕业生出国（境）升学 729 人，占本科毕业总人数的 22.92%；研究生毕业生出国（境）升学28人，占研究生毕业总人数1.04%。所以本科生还是我邮出国群体中的主力军。
+
+            </div>
+        </div>
+        </div>
+    <div>
+
+        <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('chart1'));
+
+            // 指定图表的配置项和数据
+            option = {
+                series : [
+                    {
+                        name: '毕业去向',
+                        type: 'pie',
+                        radius: '80%',
+
+                        data:[
+                            {value:15, name:'出国'},
+                            {value:60, name:'读研'},
+                            {value:30, name:'工作'},
+                            {value:2, name:'待业'},
+                        ]
+                    }
+                ]
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        </script>
+    </div>
+</div>
+<script src="../js/side.js"></script>
+
+</body>
+</html>
